@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".IsiPercakapan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backkecil"/>
+
+        <ImageButton
+            android:id="@+id/btn_play"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/play"/>
+
+        <ImageButton
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/stop"/>
+
+        <ImageButton
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nextkecil"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:background="@drawable/salam" />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:background="@drawable/jawabsalam"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:background="@drawable/sayakhalid"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:background="@drawable/sayakhalil"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:background="@drawable/apakabar"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:background="@drawable/kalokamu"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:background="@drawable/alhamdulillah"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
